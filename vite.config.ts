@@ -24,4 +24,8 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
+  base: '/',
+   build: {
+    outDir: 'build', // Dossier de build (doit correspondre à `publish` dans netlify.toml)
+  }
 });
