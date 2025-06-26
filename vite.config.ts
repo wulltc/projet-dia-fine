@@ -26,6 +26,6 @@ export default defineConfig({
   },
   base: '/',
    build: {
-    outDir: 'build', // Dossier de build (doit correspondre à `publish` dans netlify.toml)
+    outDir: 'build',
   }
 });
