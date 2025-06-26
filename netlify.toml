@@ -1,8 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "public"
-  edge_functions = "server"
+command = "npm run build"
+publish = "build/client"
 
-[[edge_functions]]
-  path = "/*"
-  function = "index"
+[dev]
+command = "npm run dev"
+framework = "vite"
