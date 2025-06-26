@@ -1,9 +1,8 @@
 [build]
   command = "npm run build"
   publish = "public"
-  functions = "server"
+  edge_functions = "server"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[edge_functions]]
+  path = "/*"
+  function = "index"
